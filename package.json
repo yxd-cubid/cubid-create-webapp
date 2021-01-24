@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Quickly create WebApp projects like Vue/React",
   "main": "index.js",
+  "bin": {
+    "cubid-create-webapp": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/yxd-cubid/cubid-create-webapp/issues"
   },
-  "homepage": "https://github.com/yxd-cubid/cubid-create-webapp#readme"
+  "homepage": "https://github.com/yxd-cubid/cubid-create-webapp#readme",
+  "dependencies": {
+    "commander": "^7.0.0"
+  }
 }
